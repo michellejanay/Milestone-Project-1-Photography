@@ -22,61 +22,45 @@
       <nav>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="container-fluid">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-        <div class="col">
-          <figure>
-            <img
-              class="img-fluid"
-              src="assets/images/lowell-arizona.jpg"
-              alt="Lowell, Arizona"
-            />
-            <figcaption>Lowell, Arizona</figcaption>
-          </figure>
-        </div>
-        <div class="col">
-          <figure>
-            <img
-              class="img-fluid"
-              src="assets/images/on-a-corner-in-windslow-arizona.jpg"
-              alt="Winslow, Arizona"
-            />
-            <figcaption>Winslow, Arizona</figcaption>
-          </figure>
-        </div>
-        <div class="col">
-          <figure>
-            <img
-              class="img-fluid"
-              src="assets/images/on-a-pig-with-wings-to-tuscan.jpg"
-              alt="Arizona"
-            />
-            <figcaption>Tuscan, Arizona</figcaption>
-          </figure>
-        </div>
-        <div class="col">
-          <figure>
-            <img
-              class="img-fluid"
-              src="assets/images/winslow-arizona.jpg"
-              alt="Winslow, Arizona"
-            />
-            <figcaption>Winslow, Arizona</figcaption>
-          </figure>
+    <main class="container-fluid contact-page">
+      <div class="row">
+        <section
+          class="col-md-6 contact-form-container"
+        >
+            <h2>Want to book?</h2>
+            <p>
+             Get in touch
+            </p>
+            <form action="">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name="name" id="full-name" class="form-control" required />
+              <label for="email" class="form-label">Email</label>
+              <input type="email" name="email" id="email-address" class="form-control" required />
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+              <button class="btn btn-dark">Submit</button>
+            </form>
+        </section>
+        <div class="col-md-6 d-flex justify-content-center main-section-img">
+          <img
+            class="img-fluid home-img"
+            src="assets/images/san-luis-obispo.jpg"
+            alt="San Luis Obispo"
+          />
         </div>
       </div>
     </main>

@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+footer {
+  margin: 2em 1em;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-link:focus {
+  color: black;
+}
+
+.main-container {
+  padding: 0 0.4em;
+}
+
+.home-img {
+  max-height: 95vh;
+}
+
+.social-links a {
+  margin: 0 0 0 1em;
+}
+
+/* ABOUT PAGE */
+.about-section-img img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+.about-section {
+  margin: 0 0.5em;
+  margin-right: 1.5em;
+}
+
+/* CONTACT PAGE */
+.contact-page {
+  margin-left: 1em;
+}
+
+.contact-form-container {
+  margin: 4em 0;
+}
+
+form .btn {
+  margin-top: 1em;
+}
+
+/* FOOTER */
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
