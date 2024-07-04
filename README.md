@@ -35,23 +35,46 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 As part of Code Institute's Level 5 Diploma in Web Application Development, I was tasked with creating a webpage using HTML, CSS, and optionally Bootstrap. I decided to take the perspective of a Web Design/Development agency who has a client that is a photographer in need of a website to display their work. 
 
 ### User Stories
-some filler text
+From the perspective of the client:
+
+1. As a photographer, I want to organize my photos into a gallery, so visitors can easily browse through my portfolio.
+
+2. As a photographer, I want to add location description to my photos, so they are easily searchable.
+
+3. As a photographer, I want to update my biography and contact information, so potential clients can learn more about me and reach out.
+
+4. As a photographer, I want to manage client inquiries through a contact form, so I can respond to potential clients efficiently.
+
+From the perspective of the visitor:
+
+1. As a visitor, I want to view the photographer's portfolio, so I can see the quality and style of their work.
+
+2. As a visitor, I want to read the photographer's biography, so I can learn more about their background and expertise.
+
+3. As a visitor, I want to follow the photographer on social media, so I can stay updated on their latest work and news.
+
+4. As a visitor, I want the website to be responsive, so it looks good on both desktop and mobile devices.
+
+5. As a visitor, I want to navigate through the site easily with a clear menu, so I can find information without getting lost.
+
 
 ### Design Choices
-some filler text
+To make the images pop, I decided to go with a dark themed web design. I went with an offblack color with white text, so that the contrast is not as harsh on the eyes and is still accessible. FONT FAMILY FOR HEADINGS, FONT FAMILY FOR THE REST OF THE TEXT ON PAGE.
 
 ### Wireframes
 
-![user journey map](https://github.com/michellejanay/login-signup-form/blob/main/public/images/user-journey-map.png)
-
-![user journey map](https://github.com/michellejanay/login-signup-form/blob/main/public/images/login-signup-design-system.png)
-
+![wireframes](https://github.com/michellejanay/Milestone-Project-1-Photography/blob/main/assets/images/readme-images/photography-gallery-wireframes.png)
 
 ## Features
 some filler text
 
 ## Technologies Used
 GitPod, GitHub, HTML, CSS, Bootstrap
+<!-- ![GitPod](https://docs.localstack.cloud/user-guide/integrations/gitpod/gitpod_logo.png)
+![GitHub](https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png)
+![HTML](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s)
+![CSS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO5ryTY9VShCV5uJWhoBXkcxxlFB8O5bbxGA&s)
+![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png) -->
 
 ## Testing
 HTML Validator, CSS Validator, Lighthouse, any bugs?
