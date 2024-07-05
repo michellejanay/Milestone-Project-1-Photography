@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 * {
   padding: 0;
@@ -7,14 +8,15 @@
 }
 
 body{
-  background-color: #333;
+  /* background-color: #2b2b2b; */
+  background-image: linear-gradient(to bottom right, #2b2b2b, rgb(8, 8, 8));
   color: white;
   font-family: 'Source Sans 3', sans-serif;
   letter-spacing: .08em;
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: "Cinzel", serif;
+  font-family: "Special Elite", serif;
   letter-spacing: .1em;
 }
 
@@ -24,7 +26,8 @@ h1,h2,h3,h4,h5,h6{
 
 header,
 footer {
-  margin: 2em 1em;
+  padding: 1em 1em;
+  color: white;
 }
 
 header h1 a{
@@ -57,6 +60,10 @@ header h1 a{
   margin: 0 0 0 1em;
 }
 
+main{
+  min-height: 90vh;
+}
+
 /* ABOUT PAGE */
 .about-section-img img {
   max-width: 300px;
@@ -67,6 +74,17 @@ header h1 a{
 .about-section {
   margin: 0 0.5em;
   margin-right: 1.5em;
+}
+
+/* GALLERY PAGE */
+img {
+  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+}
+
+img:hover {
+  filter: none;
+  /* -webkit-filter: grayscale(0); */
 }
 
 /* CONTACT PAGE */
