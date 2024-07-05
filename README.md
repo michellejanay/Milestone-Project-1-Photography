@@ -59,14 +59,14 @@ From the perspective of the visitor:
 
 
 ### Design Choices
-To make the images pop, I decided to go with a dark themed web design. I went with an offblack color with white text, so that the contrast is not as harsh on the eyes and is still accessible. FONT FAMILY FOR HEADINGS, FONT FAMILY FOR THE REST OF THE TEXT ON PAGE.
+To make the images pop, I decided to go with a dark themed web design. I went with an offblack color with white text, so that the contrast is not as harsh on the eyes and is still accessible. I chose a typewriter font for headings, and source sans 3 for all other text.
 
 ### Wireframes
 
 ![wireframes](https://github.com/michellejanay/Milestone-Project-1-Photography/blob/main/assets/images/readme-images/photography-gallery-wireframes.png)
 
 ## Features
-some filler text
+The website contains a landing page, an about page, a gallery page, and a contact page. Some of the images were already black and white, but for consistency I gave all images a filter of grayscale and a hover effect that will change the colour images back to colour.
 
 ## Technologies Used
 GitPod, GitHub, HTML, CSS, Bootstrap
@@ -78,16 +78,25 @@ GitPod, GitHub, HTML, CSS, Bootstrap
 
 ## Testing
 HTML Validator, CSS Validator, Lighthouse, any bugs?
+One bug I faced when building this website was the image loading time. Below are screenshots of the issues I was facing, specifically concerning the images. Some things I did to fix this was to save the images as webp format, resizing the images to a smaller format, and compressing the images using https://tinypng.com/.
+
+![lighthouse-image-bug-0](https://github.com/michellejanay/Milestone-Project-1-Photography/blob/main/assets/images/readme-images/lighthouse-imgs-bug-0.png)
+
+![lighthouse-image-bug](https://github.com/michellejanay/Milestone-Project-1-Photography/blob/main/assets/images/readme-images/lighthouse-imgs-bug.png)
+
 
 ## Deployment
 ### How to run this project locally
 steps to follow
 
 ## Credits
+W3Schools for background gradient and filter over images
 
 ### Content
 
+
 ### Media
+All the photographs used in the project were taken by me during my travels.
 
 ### Code
 
