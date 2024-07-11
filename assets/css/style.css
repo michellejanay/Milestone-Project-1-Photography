@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .active{
-  text-decoration: underline;
+  border-bottom: solid 1px white;
 }
 
 header,
 footer {
-  padding: 1em 1em;
+  padding: 0 1em;
   color: white;
 }
 
@@ -50,28 +50,36 @@ header h1 a{
   padding: 0 0.4em;
 }
 
-.home-img {
-  max-height: 95vh;
-}
-
-.social-links a {
-  margin: 0 0 0 1em;
+.index-main{
+  background-image: url("../images/cover-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
 main{
   min-height: 90vh;
 }
 
+.section-heading{
+  background-color: rgba(0,0,0, .7);
+  padding: 2em;
+  text-align: center;
+}
+
 /* ABOUT PAGE */
+.about-section-img{
+  margin: 4em 0 2em 0;
+}
 .about-section-img img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 50%;
 }
 
-.about-section {
-  margin: 0 0.5em;
-  margin-right: 1.5em;
+.about-section{
+  padding: 0 1em;
+  margin: 1em 0;
 }
 
 /* GALLERY PAGE */
@@ -86,16 +94,23 @@ img:hover {
 }
 
 /* CONTACT PAGE */
-.contact-page {
-  margin-left: 1em;
+.contact-row{
+  width: 100%;
 }
-
 .contact-form-container {
-  margin: 4em 0;
+  margin: 1em 0;
 }
 
 form .btn {
   margin-top: 1em;
+}
+
+.form-img{
+  max-width: 90%;
+}
+
+.contact-image-container{
+  border: solid yellow 5px;
 }
 
 /* FOOTER */
